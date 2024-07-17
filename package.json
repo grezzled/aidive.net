@@ -1,20 +1,18 @@
 {
   "name": "coming-soon",
-  "desription": "Clean Coming Soon Template (Tailwind CSS, NextJs & HTML5)",
+  "desription": "A coming soon page for the AiDive.net",
   "version": "1.0.0",
   "keywords": [
-    "coming soon",
-    "tailwind",
-    "tailwindcss",
-    "nextjs",
-    "html"
+    "Ai Dive",
+    "Ai categories",
+    "Ai Library"
   ],
-  "author": "Themeptation",
+  "author": "AiDive.net",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
+    "dev": "next dev -p 3001",
+    "build": "next build -p 3001",
+    "start": "next start -p 3001",
     "lint": "next lint",
     "export": "next export",
     "type-check": "tsc"

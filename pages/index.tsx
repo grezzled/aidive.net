@@ -2,7 +2,7 @@ import Link from "next/link";
 import Layout from "../components/Layout";
 
 const IndexPage = () => (
-  <Layout title="Coming Soon - Clean Coming Soon Page (Tailwind CSS, NextJs & HTML5) created by themeptation.net">
+  <Layout title="Coming Soon - Aidive is an online platform that categorizes all AI-powered SaaS and tools in one place. You can read reviews, sort by price, and find free tools—all conveniently in one location. The platform is currently under development and will be launching soon. Stay tuned!">
     <img
       src="/images/xera.svg"
       alt="Themeptation "
@@ -16,7 +16,7 @@ const IndexPage = () => (
     <div className="relative z-10 py-6 space-y-16 lg:space-y-32 text-gray-900">
       <div className="text-center space-y-10">
         <h3 className="font-light text-xl uppercase tracking-wider">
-          Coming soon
+          AiDive.net - Coming soon
         </h3>
         <h1 className="text-7xl lg:text-9xl font-extrabold">We’r blowing up</h1>
         <p className="text-xl lg:text-2xl tracking-wide mx-10 lg:max-w-xl lg:mx-auto">
@@ -27,7 +27,7 @@ const IndexPage = () => (
       <form className="relative z-10 mx-10 lg:max-w-xl lg:mx-auto">
         <input
           type="text"
-          placeholder="hi@themeptation.net"
+          placeholder="hi@aidive.net"
           className="w-full text-2xl font-light text-gray-900 placeholder-gray-500 py-5 pl-5 pr-36 lg:pr-44 rounded-xl"
         />
         <button className="absolute top-1 right-1 bottom-1 px-4 lg:px-10 text-xl font-semibold bg-gray-900 text-white rounded-xl transition ease-in-out duration-500 hover:bg-red-500">
@@ -38,7 +38,7 @@ const IndexPage = () => (
     <div className="absolute bottom-5">
       <ul className="flex space-x-3">
         <li>
-          <Link href="https://themeptation.net">
+          <Link href="https://aidive.net">
             <a className="flex items-center justify-center w-10 h-10 rounded-full bg-gray-50 transition ease-in-out duration-500 hover:bg-red-500 hover:text-white hover:shadow-lg">
               <svg
                 className="w-6 h-6"
@@ -56,7 +56,7 @@ const IndexPage = () => (
           </Link>
         </li>
         <li>
-          <Link href="https://themeptation.net">
+          <Link href="https://aidive.net">
             <a className="flex items-center justify-center w-10 h-10 rounded-full bg-gray-50 transition ease-in-out duration-500 hover:bg-red-500 hover:text-white hover:shadow-lg">
               <svg
                 className="w-6 h-6"
@@ -70,7 +70,7 @@ const IndexPage = () => (
           </Link>
         </li>
         <li>
-          <Link href="https://themeptation.net">
+          <Link href="https://aidive.net">
             <a className="flex items-center justify-center w-10 h-10 rounded-full bg-gray-50 transition ease-in-out duration-500 hover:bg-red-500 hover:text-white hover:shadow-lg">
               <svg
                 className="w-6 h-6"
@@ -88,7 +88,7 @@ const IndexPage = () => (
           </Link>
         </li>
         <li>
-          <Link href="https://themeptation.net">
+          <Link href="https://aidive.net">
             <a className="flex items-center justify-center w-10 h-10 rounded-full bg-gray-50 transition ease-in-out duration-500 hover:bg-red-500 hover:text-white hover:shadow-lg">
               <svg
                 className="w-6 h-6"
